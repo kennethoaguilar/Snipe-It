@@ -27,7 +27,7 @@ services:
     environment:
       - MYSQL_DATABASE=snipeit
       - MYSQL_USER=snipeit
-      - MYSQL_PASSWORD=change_me /* change username */
+      - MYSQL_PASSWORD=change_me /* change password */
       - MYSQL_ROOT_PASSWORD=change_me  /* change password */
       - TZ="PST/PDT"
       - PUID=1000
