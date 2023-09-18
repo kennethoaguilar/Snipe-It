@@ -3,6 +3,7 @@ version: '3.3'
 services:
 
   snipe-it:
+    platform: linux/x86_64/v8
     image: lscr.io/linuxserver/snipe-it:latest
     container_name: snipe-it
     environment:
@@ -21,6 +22,7 @@ services:
     restart: unless-stopped
 
   mariadb:
+    platform: linux/x86_64/v8
     image: mariadb:10.6
     container_name: mariadb
     hostname: mariadb    
